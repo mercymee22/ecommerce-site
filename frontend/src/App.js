@@ -1,10 +1,18 @@
-
+import { container } from "react-bootstrap";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <h1>Welcome to Red Rock Coffee & Crepes</h1>
-  )
-}
+    <>
+      <Header />
+      <main className="py-3">
+        <Container>
+          <h1>Welcome to Red Rock Coffee & Crepes</h1>
+        </Container>
+      </main>
+    </>
+  );
+};
 export default App;
 
 
